@@ -1,5 +1,5 @@
 ### Описание
-[Inclass kaggle контест](https://www.kaggle.com/c/nta-landmarks-detection/overview) по предсказанию координат 194 лицевых точек, где в качестве метрики используется MSE.
+[Inclass kaggle контест](https://www.kaggle.com/c/nta-landmarks-detection/overview) по предсказанию координат 194 лицевых точек на Helen dataset, где в качестве метрики используется MSE.
 ##### Пример предсказания написанной модели на тестовых данных
 ![загруженное (1)](https://user-images.githubusercontent.com/34653515/111840740-f735a400-890d-11eb-97d3-4df9350813c5.png)
 
@@ -16,4 +16,6 @@
 * Нормализация keypoints
 * Детекция лиц и кроп к ним с помощью mtcnn, dlib.
 * Добавление координат 68 точек из dlib landmarks detector в fc слои на выходе
-* Добавление координат bounding box лица в последние fc
+* Добавление координат bounding box лица от детектора в последние fc
+
+##### В результате лучшая модель выдаёт 532 по MSE.

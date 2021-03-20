@@ -1,4 +1,3 @@
-### Описание
 [Inclass kaggle контест](https://www.kaggle.com/c/nta-landmarks-detection/overview) по предсказанию координат 194 точек на лице на Helen dataset, где в качестве метрики используется MSE.
 ##### Пример предсказания написанной модели на тестовых данных
 ![загруженное (1)](https://user-images.githubusercontent.com/34653515/111840740-f735a400-890d-11eb-97d3-4df9350813c5.png)
